@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This program receives two parameters to function. first one, a absolute path to the directory containing the others directories. the second one, a boolean value.
+
 var2=$2
 
 if [[ -z "$var2" ]]
